@@ -9,14 +9,14 @@ client:
   loadscreen: index.html
   files:
     - index.html
-	- gravity.woff2
-	- main.css
-	- main.js
-	- libs/bootstrap.min.css
-	- libs/jquery.min.js
-	- img/bg1.jpg
-	- img/bg2.jpg
-	- img/bg3.jpg
-	- img/bg4.jpg
-	- img/bg5.jpg
-	- img/logo.png
+    - gravity.woff2
+    - main.css
+    - main.js
+    - libs/bootstrap.min.css
+    - libs/jquery.min.js
+    - img/bg1.jpg
+    - img/bg2.jpg
+    - img/bg3.jpg
+    - img/bg4.jpg
+    - img/bg5.jpg
+    - img/logo.png
