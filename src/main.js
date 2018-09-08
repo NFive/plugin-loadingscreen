@@ -9,6 +9,8 @@ const messages = [
 	'Applying Feng Shui Shaders',
 	'Applying Theatre Soda Layer',
 	'Asserting Packed Exemplars',
+	'NFive Rocks',
+	'Become a Lime',
 	'Attempting to Lock Back-Buffer',
 	'Binding Sapling Root System',
 	'Breeding Fauna',
