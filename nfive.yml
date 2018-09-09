@@ -4,7 +4,6 @@ description: NFive loading screen plugin
 author: NFive
 license: LGPL
 website: https://nfive.io/
-
 client:
   loadscreen: index.html
   files:
