@@ -1,11 +1,11 @@
 name: NFive/plugin-loadingscreen
-version: 1.0.0
+version: 1.1.0
 description: NFive loading screen plugin
 author: NFive
 license: LGPL
 website: https://nfive.io/
 client:
-  loadscreen: index.html
+  loading_screen: index.html
   files:
     - index.html
     - gravity.woff2
