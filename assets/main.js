@@ -27,7 +27,7 @@ function shuffle(a) {
     return a;
 }
 
-shuffle(config.messages);
+config.messages = shuffle(config.messages);
 
 setInterval(() => {
 	messageElement.style.opacity = 0;
