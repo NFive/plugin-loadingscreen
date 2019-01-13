@@ -37,7 +37,7 @@ install:
 build: off
 
 after_build:
-- ps: 7z a "$($env:APPVEYOR_PROJECT_NAME).zip" src/* nfive.yml README.md LICENSE
+- ps: 7z a "$($env:APPVEYOR_PROJECT_NAME).zip" assets/ img/ config.js index.html nfive.yml README.md LICENSE
 
 artifacts:
 - path: $(APPVEYOR_PROJECT_NAME).zip
