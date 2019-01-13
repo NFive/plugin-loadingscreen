@@ -34,9 +34,7 @@ install:
 
     Update-AppveyorBuild -Version $env:BUILD_VERSION_FILE
 
-build: off
-
-after_build:
+build_script:
 - ps: 7z a "$($env:APPVEYOR_PROJECT_NAME).zip" assets/ img/ config.js index.html nfive.yml README.md LICENSE
 
 artifacts:
