@@ -28,14 +28,20 @@ install:
 
     $version = $env:BUILD_VERSION -split '-'
 
+    $env:BUILD_VERSION_FRIENDLY = $version[0] -replace "(\.0)$"
+
     If ($version[1]) {
       $env:BUILD_VERSION_FILE = "$($version[0]).$env:APPVEYOR_BUILD_NUMBER-$($version[1])"
+
+      $end = (Get-Culture).TextInfo.ToTitleCase($version[1].Replace("rc", "RC"))
+      $env:BUILD_VERSION_FRIENDLY += " " + $end -replace "([a-z]+)(\d+)",'$1 $2'
     }
 
     Update-AppveyorBuild -Version $env:BUILD_VERSION_FILE
+- appveyor DownloadFile https://dl.nfive.io/nfpm.exe
 
 build_script:
-- ps: 7z a "$($env:APPVEYOR_PROJECT_NAME).zip" assets/ img/ config.js index.html nfive.yml README.md LICENSE
+- nfpm pack
 
 artifacts:
 - path: $(APPVEYOR_PROJECT_NAME).zip
