@@ -1,6 +1,8 @@
 // Edit this file to configure the loading screen
 
 const config = {
+	title: "NFive",
+
 	backgroundSpeed: 5 * 1000, // Cycle every 3 seconds
 
 	backgrounds: [

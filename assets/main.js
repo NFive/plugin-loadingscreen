@@ -1,6 +1,10 @@
+// TITLE
+document.getElementById('title').innerHTML = config.title;
+
 // BACKGROUND
 const backgroundElement = document.getElementById('background');
 let backgroundIndex = 0;
+backgroundElement.setAttribute('src', config.backgrounds[backgroundIndex]);
 
 setInterval(() => {
 	backgroundElement.style.opacity = 0;
