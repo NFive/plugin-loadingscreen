@@ -1,9 +1,9 @@
 name: NFive/plugin-loadingscreen
 version: 1.2.0
-description: Basic loading screen
+description: Simple loading screen
 author: NFive
-license: LGPL-3.0-only
 website: https://nfive.io/
+license: LGPL-3.0-or-later
 client:
   files:
     - index.html
