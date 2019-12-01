@@ -6,15 +6,15 @@ website: https://nfive.io/
 license: LGPL-3.0-or-later
 client:
   files:
-    - index.html
-    - config.js
-    - assets/main.js
-    - assets/main.css
-    - assets/gravity.woff2
-    - assets/bootstrap.min.css
-    - img/bg1.jpg
-    - img/bg2.jpg
-    - img/bg3.jpg
-    - img/bg4.jpg
-    - img/bg5.jpg
+  - index.html
+  - config.js
+  - assets/main.js
+  - assets/main.css
+  - assets/gravity.woff2
+  - assets/bootstrap.min.css
+  - img/bg1.jpg
+  - img/bg2.jpg
+  - img/bg3.jpg
+  - img/bg4.jpg
+  - img/bg5.jpg
   loading_screen: index.html
